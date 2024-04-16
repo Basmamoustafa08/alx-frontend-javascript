@@ -4,7 +4,7 @@ export default function cleanSet(set, startString) {
     !startString &&
     !(set instanceof Set) &&
     typeof startString !== "string") {
-    dreturn "";
+    return "";
   }
 
   const arr = [];
