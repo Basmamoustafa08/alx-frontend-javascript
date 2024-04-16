@@ -22,5 +22,4 @@ export default function updateStudentGradeByCity(
   );
 
   return gradeStudents;
-
 }
