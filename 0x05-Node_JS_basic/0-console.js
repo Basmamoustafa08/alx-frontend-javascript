@@ -4,7 +4,6 @@
  * @returns {void}
  */
 // Arrow function
-
 const displayMessage = (STDOUT) => console.log(STDOUT);
 
 /**
@@ -13,5 +12,4 @@ const displayMessage = (STDOUT) => console.log(STDOUT);
  * @function
  */
 // Default module export.
-
 module.exports = displayMessage;
